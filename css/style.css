@@ -222,12 +222,38 @@ h1 {
 
 /* Change navbar styling on scroll */
 .navigation-wrap .scroll-on{
-    position:fixed;
+    position: fixed;
     top:0;
     left:0;
     width:100%;
     background:var(--white-color);
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
     transition:all .15s ease-in-out 0s;
+    
   }
+    
+/*
+==========================================
+          top-banner Design
+==========================================
+*/
+.top-banner{
+  width: 100%;
+  background: url('../Images/BackGround Images/bg-1.jpg') no-repeat center;
+  background-size: cover;
+  padding:16.875rem 0 9.375rem;
+}
 
+/*
+==========================================
+          counter Design
+==========================================
+*/
+.counter-section{
+  background-color: var(--primary-color);
+  padding:2.5rem 0;
+}
+.counter-section p{
+  color:var(--white-color);
+  text-transform: uppercase;
+}
