@@ -38,7 +38,7 @@ ol {
 
 /*
 =========================================
-            Variable Define
+         Variable Define
 =========================================
 */ 
 :root {
@@ -259,4 +259,88 @@ h1 {
 .counter-section p{
   color:var(--white-color);
   text-transform: uppercase;
+}
+
+/*
+==========================================
+          About Section Design
+==========================================
+*/
+.about-section{
+  background: var(--white-color);
+
+}
+.about-section .card,
+.about-section .card img{
+  border-radius: 0.625rem;
+}
+.about-section .text-sec{
+  padding-left: 2rem;
+}
+
+/*
+==========================================
+          Food type Section Design
+==========================================
+*/
+.food-type{
+  padding-top: 3.25rem;
+}
+.food-type ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+.food-type ul li::before{
+  position:absolute;
+  left:-2.1875rem;
+  color:var(--primary-color);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content:'\f00c'; /* !Each icon in Font Awesome is associated with a unique Unicode value. The value '\f00c' represents a  specific icon within the font. */
+  display:inline-block;
+  padding-right:3px;
+  vertical-align:middle;
+  font-weight: 900;
+}
+
+.story-section{
+  width: 100%;
+  height: 28.125rem;
+  background: url("../Images/BackGround Images/bg-2.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+.story-section h2{
+  color: var(--primary-color);
+}
+
+/*
+==========================================
+        Explore food Section Design
+==========================================
+*/
+.explore-food .card{
+  border:none;
+  background-color: transparent;
+  border-radius: 0.9375rem;
+}
+.explore-food .card img{
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+.explore-food .card span{
+  display:block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:var(--primary-color);
+  padding-bottom:1rem;
+  border-bottom:0.0625rem solid #eee;
+}
+.explore-food .card span del{
+  color:var(--text-gray);
+  margin-left:0.5rem;
 }
